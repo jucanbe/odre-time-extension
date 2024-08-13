@@ -1,0 +1,19 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "http://www.w3.org/2006/time#metBy" "http://www.w3.org/2006/time#during" "http://www.w3.org/2006/time#before" "http://www.w3.org/2006/time#equals" "http://www.w3.org/2006/time#contains" "http://www.w3.org/2006/time#overlaps" "http://www.w3.org/2006/time#startedBy" "http://www.w3.org/2006/time#finishedBy" "http://www.w3.org/ns/odrl/2/Operator" "http://www.w3.org/2006/time#starts" "http://www.w3.org/2006/time#overlappedBy" "http://www.w3.org/2006/time#meets" "http://www.w3.org/2006/time#finished" "http://www.w3.org/2006/time#after" ; /*classes style*/
+	"http://www.w3.org/2006/time#equals" -> "http://www.w3.org/ns/odrl/2/Operator" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/2006/time#metBy" -> "http://www.w3.org/ns/odrl/2/Operator" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/2006/time#meets" -> "http://www.w3.org/ns/odrl/2/Operator" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/2006/time#during" -> "http://www.w3.org/ns/odrl/2/Operator" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/2006/time#finished" -> "http://www.w3.org/ns/odrl/2/Operator" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/2006/time#before" -> "http://www.w3.org/ns/odrl/2/Operator" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/2006/time#after" -> "http://www.w3.org/ns/odrl/2/Operator" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/2006/time#overlaps" -> "http://www.w3.org/ns/odrl/2/Operator" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/2006/time#starts" -> "http://www.w3.org/ns/odrl/2/Operator" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/2006/time#contains" -> "http://www.w3.org/ns/odrl/2/Operator" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/2006/time#overlappedBy" -> "http://www.w3.org/ns/odrl/2/Operator" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/2006/time#startedBy" -> "http://www.w3.org/ns/odrl/2/Operator" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/2006/time#finishedBy" -> "http://www.w3.org/ns/odrl/2/Operator" [ label = "rdfs:subClassOf" ];
+
+}
