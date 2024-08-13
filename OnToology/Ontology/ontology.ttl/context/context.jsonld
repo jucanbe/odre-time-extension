@@ -1,0 +1,55 @@
+{
+  "@context" : {
+    "meets" : {
+      "@id" : "http://www.w3.org/2006/time#meets"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "finishedBy" : {
+      "@id" : "http://www.w3.org/2006/time#finishedBy"
+    },
+    "after" : {
+      "@id" : "http://www.w3.org/2006/time#after"
+    },
+    "startedBy" : {
+      "@id" : "http://www.w3.org/2006/time#startedBy"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "contains" : {
+      "@id" : "http://www.w3.org/2006/time#contains"
+    },
+    "overlaps" : {
+      "@id" : "http://www.w3.org/2006/time#overlaps"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "Operator" : {
+      "@id" : "http://www.w3.org/ns/odrl/2/Operator"
+    },
+    "overlappedBy" : {
+      "@id" : "http://www.w3.org/2006/time#overlappedBy"
+    },
+    "starts" : {
+      "@id" : "http://www.w3.org/2006/time#starts"
+    },
+    "metBy" : {
+      "@id" : "http://www.w3.org/2006/time#metBy"
+    },
+    "during" : {
+      "@id" : "http://www.w3.org/2006/time#during"
+    },
+    "before" : {
+      "@id" : "http://www.w3.org/2006/time#before"
+    },
+    "equals" : {
+      "@id" : "http://www.w3.org/2006/time#equals"
+    },
+    "finished" : {
+      "@id" : "http://www.w3.org/2006/time#finished"
+    }
+  }
+}

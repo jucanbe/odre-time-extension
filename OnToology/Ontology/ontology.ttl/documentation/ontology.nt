@@ -1,0 +1,83 @@
+<https://w3id.org/def/odre-time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/def/odre-time> <http://purl.org/dc/terms/creator> "Andrea Cimmino" .
+<https://w3id.org/def/odre-time> <http://purl.org/dc/terms/creator> "Juan Cano de Benito" .
+<https://w3id.org/def/odre-time> <http://purl.org/dc/terms/creator> "http://www.garcia-castro.com/foaf.rdf#me" .
+<https://w3id.org/def/odre-time> <http://www.w3.org/2000/01/rdf-schema#label> "ODRL Time Extension" .
+<https://w3id.org/def/odre-time> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2006/time#after
+<http://www.w3.org/2006/time#after> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#after> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+# 
+# http://www.w3.org/2006/time#before
+<http://www.w3.org/2006/time#before> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#before> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+# 
+# http://www.w3.org/2006/time#contains
+<http://www.w3.org/2006/time#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#contains> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+# 
+# http://www.w3.org/2006/time#during
+<http://www.w3.org/2006/time#during> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#during> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+# 
+# http://www.w3.org/2006/time#equals
+<http://www.w3.org/2006/time#equals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#equals> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+# 
+# http://www.w3.org/2006/time#finished
+<http://www.w3.org/2006/time#finished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#finished> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+# 
+# http://www.w3.org/2006/time#finishedBy
+<http://www.w3.org/2006/time#finishedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#finishedBy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+# 
+# http://www.w3.org/2006/time#meets
+<http://www.w3.org/2006/time#meets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#meets> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+# 
+# http://www.w3.org/2006/time#metBy
+<http://www.w3.org/2006/time#metBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#metBy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+# 
+# http://www.w3.org/2006/time#overlappedBy
+<http://www.w3.org/2006/time#overlappedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#overlappedBy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+# 
+# http://www.w3.org/2006/time#overlaps
+<http://www.w3.org/2006/time#overlaps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#overlaps> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+# 
+# http://www.w3.org/2006/time#startedBy
+<http://www.w3.org/2006/time#startedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#startedBy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+# 
+# http://www.w3.org/2006/time#starts
+<http://www.w3.org/2006/time#starts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#starts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+# 
+# http://www.w3.org/ns/odrl/2/Operator
+<http://www.w3.org/ns/odrl/2/Operator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
