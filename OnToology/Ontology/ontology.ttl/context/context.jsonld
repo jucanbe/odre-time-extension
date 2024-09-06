@@ -1,5 +1,8 @@
 {
   "@context" : {
+    "RightOperand" : {
+      "@id" : "http://www.w3.org/ns/odrl/2/RightOperand"
+    },
     "meets" : {
       "@id" : "http://www.w3.org/2006/time#meets"
     },
@@ -21,11 +24,20 @@
     "contains" : {
       "@id" : "http://www.w3.org/2006/time#contains"
     },
+    "LeftOperand" : {
+      "@id" : "http://www.w3.org/ns/odrl/2/LeftOperand"
+    },
     "overlaps" : {
       "@id" : "http://www.w3.org/2006/time#overlaps"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "time" : {
+      "@id" : "http://www.semanticweb.org/juanc/ontologies/2024/7/untitled-ontology-37/time"
+    },
+    "between" : {
+      "@id" : "http://www.semanticweb.org/juanc/ontologies/2024/7/untitled-ontology-37/between"
     },
     "Operator" : {
       "@id" : "http://www.w3.org/ns/odrl/2/Operator"

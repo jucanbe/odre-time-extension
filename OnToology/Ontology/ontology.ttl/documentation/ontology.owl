@@ -48,6 +48,25 @@
     
 
 
+    <!-- http://www.semanticweb.org/juanc/ontologies/2024/7/untitled-ontology-37/between -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juanc/ontologies/2024/7/untitled-ontology-37/between">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/Operator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juanc/ontologies/2024/7/untitled-ontology-37/time -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juanc/ontologies/2024/7/untitled-ontology-37/time">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/LeftOperand"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/RightOperand"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.w3.org/2006/time#after -->
 
 
@@ -165,10 +184,24 @@
     
 
 
+    <!-- http://www.w3.org/ns/odrl/2/LeftOperand -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/odrl/2/LeftOperand"/>
+    
+
+
     <!-- http://www.w3.org/ns/odrl/2/Operator -->
 
 
     <owl:Class rdf:about="http://www.w3.org/ns/odrl/2/Operator"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/RightOperand -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/odrl/2/RightOperand"/>
 </rdf:RDF>
 
 
