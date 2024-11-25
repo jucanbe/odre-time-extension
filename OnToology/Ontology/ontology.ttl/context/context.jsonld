@@ -51,6 +51,9 @@
     "metBy" : {
       "@id" : "http://www.w3.org/2006/time#metBy"
     },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
     "during" : {
       "@id" : "http://www.w3.org/2006/time#during"
     },

@@ -53,6 +53,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/juanc/ontologies/2024/7/untitled-ontology-37/between">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/Operator"/>
+        <rdfs:comment>A time given is between the Left Operand time and the Right Operand time</rdfs:comment>
     </owl:Class>
     
 
@@ -72,6 +73,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/2006/time#after">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/Operator"/>
+        <rdfs:comment>Left Operand time is after Right Operand time</rdfs:comment>
     </owl:Class>
     
 
@@ -81,6 +83,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/2006/time#before">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/Operator"/>
+        <rdfs:comment>The time provided by the left operand side occurs before the time on the right operand side.</rdfs:comment>
     </owl:Class>
     
 
@@ -90,6 +93,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/2006/time#contains">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/Operator"/>
+        <rdfs:comment>The right operand event occurs entirely within the duration of the left operand event.</rdfs:comment>
     </owl:Class>
     
 
@@ -99,6 +103,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/2006/time#during">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/Operator"/>
+        <rdfs:comment>The left operand event occurs entirely within the duration of the right operand event.</rdfs:comment>
     </owl:Class>
     
 
@@ -108,6 +113,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/2006/time#equals">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/Operator"/>
+        <rdfs:comment>The events on the left operand and right operand side have exactly the same duration and occur at the same time.</rdfs:comment>
     </owl:Class>
     
 
@@ -117,6 +123,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/2006/time#finished">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/Operator"/>
+        <rdfs:comment>The event on the left operand ends at exactly the same time as the event on the right operand.</rdfs:comment>
     </owl:Class>
     
 
@@ -126,6 +133,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/2006/time#finishedBy">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/Operator"/>
+        <rdfs:comment>The event on the right operand ends at exactly the same time as the event on the left operand.</rdfs:comment>
     </owl:Class>
     
 
@@ -135,6 +143,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/2006/time#meets">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/Operator"/>
+        <rdfs:comment>The end of the event or object on the left operand coincides exactly with the start of the event on the right operand.</rdfs:comment>
     </owl:Class>
     
 
@@ -144,6 +153,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/2006/time#metBy">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/Operator"/>
+        <rdfs:comment>The end of the event or object on the right operand coincides exactly with the start of the event on the left operand.</rdfs:comment>
     </owl:Class>
     
 
@@ -153,6 +163,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/2006/time#overlappedBy">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/Operator"/>
+        <rdfs:comment>The event on the right operand starts before the event on the left operand, but also ends before the event on the left operand ends.</rdfs:comment>
     </owl:Class>
     
 
@@ -162,6 +173,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/2006/time#overlaps">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/Operator"/>
+        <rdfs:comment>The event on the left operand starts before the event on the right operand, but also ends before the event on the right operand ends.</rdfs:comment>
     </owl:Class>
     
 
@@ -171,6 +183,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/2006/time#startedBy">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/Operator"/>
+        <rdfs:comment>The event on the right operand starts at exactly the same time as the event on the left operand.</rdfs:comment>
     </owl:Class>
     
 
@@ -180,6 +193,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/2006/time#starts">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/odrl/2/Operator"/>
+        <rdfs:comment>The event on the left operand starts at exactly the same time as the event on the right operand.</rdfs:comment>
     </owl:Class>
     
 
