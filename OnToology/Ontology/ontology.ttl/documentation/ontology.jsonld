@@ -4,6 +4,9 @@
 }, {
   "@id" : "http://www.semanticweb.org/juanc/ontologies/2024/7/untitled-ontology-37/between",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A time given is between the Left Operand time and the Right Operand time"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/odrl/2/Operator"
   } ]
@@ -18,78 +21,117 @@
 }, {
   "@id" : "http://www.w3.org/2006/time#after",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Left Operand time is after Right Operand time"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/odrl/2/Operator"
   } ]
 }, {
   "@id" : "http://www.w3.org/2006/time#before",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The time provided by the left operand side occurs before the time on the right operand side."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/odrl/2/Operator"
   } ]
 }, {
   "@id" : "http://www.w3.org/2006/time#contains",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The right operand event occurs entirely within the duration of the left operand event."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/odrl/2/Operator"
   } ]
 }, {
   "@id" : "http://www.w3.org/2006/time#during",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The left operand event occurs entirely within the duration of the right operand event."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/odrl/2/Operator"
   } ]
 }, {
   "@id" : "http://www.w3.org/2006/time#equals",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The events on the left operand and right operand side have exactly the same duration and occur at the same time."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/odrl/2/Operator"
   } ]
 }, {
   "@id" : "http://www.w3.org/2006/time#finished",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The event on the left operand ends at exactly the same time as the event on the right operand."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/odrl/2/Operator"
   } ]
 }, {
   "@id" : "http://www.w3.org/2006/time#finishedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The event on the right operand ends at exactly the same time as the event on the left operand."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/odrl/2/Operator"
   } ]
 }, {
   "@id" : "http://www.w3.org/2006/time#meets",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The end of the event or object on the left operand coincides exactly with the start of the event on the right operand."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/odrl/2/Operator"
   } ]
 }, {
   "@id" : "http://www.w3.org/2006/time#metBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The end of the event or object on the right operand coincides exactly with the start of the event on the left operand."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/odrl/2/Operator"
   } ]
 }, {
   "@id" : "http://www.w3.org/2006/time#overlappedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The event on the right operand starts before the event on the left operand, but also ends before the event on the left operand ends."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/odrl/2/Operator"
   } ]
 }, {
   "@id" : "http://www.w3.org/2006/time#overlaps",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The event on the left operand starts before the event on the right operand, but also ends before the event on the right operand ends."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/odrl/2/Operator"
   } ]
 }, {
   "@id" : "http://www.w3.org/2006/time#startedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The event on the right operand starts at exactly the same time as the event on the left operand."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/odrl/2/Operator"
   } ]
 }, {
   "@id" : "http://www.w3.org/2006/time#starts",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The event on the left operand starts at exactly the same time as the event on the right operand."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/odrl/2/Operator"
   } ]

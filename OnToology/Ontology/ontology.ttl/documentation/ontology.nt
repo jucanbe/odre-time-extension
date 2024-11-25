@@ -28,6 +28,7 @@
 # http://www.semanticweb.org/juanc/ontologies/2024/7/untitled-ontology-37/between
 <http://www.semanticweb.org/juanc/ontologies/2024/7/untitled-ontology-37/between> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/juanc/ontologies/2024/7/untitled-ontology-37/between> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+<http://www.semanticweb.org/juanc/ontologies/2024/7/untitled-ontology-37/between> <http://www.w3.org/2000/01/rdf-schema#comment> "A time given is between the Left Operand time and the Right Operand time" .
 # 
 # http://www.semanticweb.org/juanc/ontologies/2024/7/untitled-ontology-37/time
 <http://www.semanticweb.org/juanc/ontologies/2024/7/untitled-ontology-37/time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -37,54 +38,67 @@
 # http://www.w3.org/2006/time#after
 <http://www.w3.org/2006/time#after> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2006/time#after> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+<http://www.w3.org/2006/time#after> <http://www.w3.org/2000/01/rdf-schema#comment> "Left Operand time is after Right Operand time" .
 # 
 # http://www.w3.org/2006/time#before
 <http://www.w3.org/2006/time#before> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2006/time#before> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+<http://www.w3.org/2006/time#before> <http://www.w3.org/2000/01/rdf-schema#comment> "The time provided by the left operand side occurs before the time on the right operand side." .
 # 
 # http://www.w3.org/2006/time#contains
 <http://www.w3.org/2006/time#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2006/time#contains> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+<http://www.w3.org/2006/time#contains> <http://www.w3.org/2000/01/rdf-schema#comment> "The right operand event occurs entirely within the duration of the left operand event." .
 # 
 # http://www.w3.org/2006/time#during
 <http://www.w3.org/2006/time#during> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2006/time#during> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+<http://www.w3.org/2006/time#during> <http://www.w3.org/2000/01/rdf-schema#comment> "The left operand event occurs entirely within the duration of the right operand event." .
 # 
 # http://www.w3.org/2006/time#equals
 <http://www.w3.org/2006/time#equals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2006/time#equals> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+<http://www.w3.org/2006/time#equals> <http://www.w3.org/2000/01/rdf-schema#comment> "The events on the left operand and right operand side have exactly the same duration and occur at the same time." .
 # 
 # http://www.w3.org/2006/time#finished
 <http://www.w3.org/2006/time#finished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2006/time#finished> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+<http://www.w3.org/2006/time#finished> <http://www.w3.org/2000/01/rdf-schema#comment> "The event on the left operand ends at exactly the same time as the event on the right operand." .
 # 
 # http://www.w3.org/2006/time#finishedBy
 <http://www.w3.org/2006/time#finishedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2006/time#finishedBy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+<http://www.w3.org/2006/time#finishedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The event on the right operand ends at exactly the same time as the event on the left operand." .
 # 
 # http://www.w3.org/2006/time#meets
 <http://www.w3.org/2006/time#meets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2006/time#meets> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+<http://www.w3.org/2006/time#meets> <http://www.w3.org/2000/01/rdf-schema#comment> "The end of the event or object on the left operand coincides exactly with the start of the event on the right operand." .
 # 
 # http://www.w3.org/2006/time#metBy
 <http://www.w3.org/2006/time#metBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2006/time#metBy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+<http://www.w3.org/2006/time#metBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The end of the event or object on the right operand coincides exactly with the start of the event on the left operand." .
 # 
 # http://www.w3.org/2006/time#overlappedBy
 <http://www.w3.org/2006/time#overlappedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2006/time#overlappedBy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+<http://www.w3.org/2006/time#overlappedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The event on the right operand starts before the event on the left operand, but also ends before the event on the left operand ends." .
 # 
 # http://www.w3.org/2006/time#overlaps
 <http://www.w3.org/2006/time#overlaps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2006/time#overlaps> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+<http://www.w3.org/2006/time#overlaps> <http://www.w3.org/2000/01/rdf-schema#comment> "The event on the left operand starts before the event on the right operand, but also ends before the event on the right operand ends." .
 # 
 # http://www.w3.org/2006/time#startedBy
 <http://www.w3.org/2006/time#startedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2006/time#startedBy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+<http://www.w3.org/2006/time#startedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The event on the right operand starts at exactly the same time as the event on the left operand." .
 # 
 # http://www.w3.org/2006/time#starts
 <http://www.w3.org/2006/time#starts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2006/time#starts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/odrl/2/Operator> .
+<http://www.w3.org/2006/time#starts> <http://www.w3.org/2000/01/rdf-schema#comment> "The event on the left operand starts at exactly the same time as the event on the right operand." .
 # 
 # http://www.w3.org/ns/odrl/2/LeftOperand
 <http://www.w3.org/ns/odrl/2/LeftOperand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
